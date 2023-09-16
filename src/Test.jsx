@@ -3,7 +3,7 @@ import "./App.css";
 // import TshirtDesigner from "./TshirtDesigner";
 // import axios from "axios";
 
-function App() {
+function Test() {
   const [prompt , setPrompt] = useState("")
   const [imgData, setImgData] = useState(null)
   const convert = async () => {
@@ -44,11 +44,13 @@ function App() {
           submit
         </button>
         {imgData ? <img src={imgData} /> : ""}
-        
+        <div className="" >
+
+        </div>
 
       </main>
     </div>
   );
 }
 
-export default App;
+export default Test;
